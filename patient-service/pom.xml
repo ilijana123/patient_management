@@ -109,13 +109,6 @@
 			<artifactId>spring-kafka</artifactId>
 			<version>3.3.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.pm</groupId>
-			<artifactId>analytics-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-
 	</dependencies>
 
 
