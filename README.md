@@ -10,6 +10,8 @@ SPRING_DATASOURCE_USERNAME=admin_user;
 SPRING_JPA_HIBERNATE_DDL_AUTO=update;
 SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092;
 SPRING_SQL_INIT_MODE=always
+
+
 Billing Service
 gRPC Setup
 Add the following to the <dependencies> section
