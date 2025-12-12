@@ -1,6 +1,8 @@
 # patient_management
 Patient Service
+
 Environment Variables
+
 JAVA_TOOL_OPTIONS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005;
 SPRING_DATASOURCE_PASSWORD=password;
 SPRING_DATASOURCE_URL=jdbc:postgresql://patient-service-db:5432/db;
