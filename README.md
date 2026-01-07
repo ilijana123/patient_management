@@ -280,17 +280,3 @@ KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
 # (trimmed) add any other Kafka configs you need for your setup
 ```
 
----
-
-## Notes & troubleshooting
-
-- Keep dependency versions consistent across services that communicate via gRPC or protobuf to avoid incompatibilities.
-- If protobuf generation fails, ensure `os-maven-plugin` is configured and Maven is run on the same OS or the classifier is detected correctly.
-- For debugging remote JVMs, the `JAVA_TOOL_OPTIONS` line enables JDWP on port 5005.
-
----
-
-If you'd like, I can:
-- Add a Docker Compose file that spins up Postgres + Kafka + Zookeeper for local development, or
-- Split this README into per-service READMEs for easier navigation.
-
