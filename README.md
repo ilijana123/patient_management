@@ -277,6 +277,5 @@ If you run the Kafka container locally in IntelliJ or a Docker Compose file, you
 KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094
 KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
 KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
-# (trimmed) add any other Kafka configs you need for your setup
 ```
 
