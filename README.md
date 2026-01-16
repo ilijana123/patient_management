@@ -1,4 +1,4 @@
-# patient_management
+# Patient Management System
 
 A collection of microservices for managing patients, billing, notifications, and authentication.
 
